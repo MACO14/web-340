@@ -1,0 +1,90 @@
+<!--Name: Mackenzie Lubben-Ortiz
+    Assignment: Boarding Page Development
+    Date: 11/19/2023
+    -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="/public/styles/index.css" />
+      
+    
+        <style>
+          body {
+            background-image: url("/pets-r-us/public/images/camylla-battani-AoqgGAqrLpU-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 600px;
+            width: 100vw;
+          }
+    
+          footer {
+            text-align: center;
+            padding: 3px;
+            background-color: darksalmon;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+          }
+        </style>
+      </head>
+
+      <!--Google fonts for Oswald-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+</header>
+
+<body>
+    <!--partial views tag-->
+    <%- include views/boarding.ejs %>
+    <h1>Boarding</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+              <li><a href="/pets-r-us/views/training.ejs">Training</a></li>
+              <li><a href="/pets-r-us/views/grooming.ejs">Grooming</a></li>
+              <li><a href="/pets-r-us/views/boarding.ejs">Boarding</a></li>
+              <li><a href="">Booking</a></li>
+           
+            </ul>
+          </nav>
+
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Boarding Information</h1>
+    <p>Travel plans that don't include your furry friend? Pets-R-Us offers best-in-show boarding with sizable suites and fun activity packages, so you and your pet can both enjoy and much-deserved vacation! Our canine guests receive top-of-the-line treatment with all of our boarding options!</p>
+
+    <br/>
+    <br/>
+    <h2>Our Rates</h2>
+    <p>
+        <li>1 dog up to 5 nights: $40/night</li>
+        <li>1 dog 5 nights or over: $35/night</li>
+        <li>2 dogs up to 5 nights: $65/night</li>
+        <li>2 dogs 5 nights or over: $60/night</li>
+        <li>3 dogs up to 5 nights: $90/night</li>
+        <li>3 dogs 5 nights or over: $75/night</li>
+
+     </p>
+
+
+    <footer>
+        <p>110 Crabapple Dr. Chicago, IL</p>
+        <p>Photo courtesy of Unsplash</p>
+    </footer>
+    </body>
+</html>
